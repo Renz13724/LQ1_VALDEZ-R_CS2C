@@ -1,3 +1,4 @@
+// Persona Storage:
 var persona1name = "Maria Delos Santos Las Marias";
 var persona1age = 25;
 var persona1address = "Upper Session Road, Baguio City, Benguet";
@@ -9,6 +10,7 @@ var persona2address = "San Nicolas, Candon City, Ilocos Sur";
 var p1nameRearrange = persona1name.split(" ");
 let p2nameRearrange = persona2name.split(" ");
 
+// Variable Manipulations:
 var p1namelength = persona1name.length;
 let p2namelength = persona2name.length;
 var p1addlength = persona1address.length;
