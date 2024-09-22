@@ -7,6 +7,7 @@ var persona2name = "Juan Gamoso Dela Cruz";
 var persona2age = 28;
 var persona2address = "San Nicolas, Candon City, Ilocos Sur";
 
+// Rearrange Name Sequence 
 var p1nameRearrange = persona1name.split(" ");
 let p2nameRearrange = persona2name.split(" ");
 
@@ -16,6 +17,7 @@ let p2namelength = persona2name.length;
 var p1addlength = persona1address.length;
 let p2addlength = persona2address.length;
 
+// Operations
 let sumOfall = persona1age + persona2age + p1namelength + p2namelength + p1addlength + p2addlength;
 let p1Addp2 = persona1age + persona2age;
 let subtractp1 = p1Addp2 - p1namelength;
